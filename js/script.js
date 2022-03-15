@@ -11,7 +11,7 @@ $(document).ready(function(){
 window.onscroll = function showHeader() {
     let header = document.querySelector('header');
 
-    if(window.pageYOffset > 200) {
+    if(window.pageYOffset > 10) {
         header.classList.add('header_fix');
     } else {
         header.classList.remove('header_fix');

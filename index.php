@@ -9,7 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-
 <header>
     <nav>
         <div class="container">
@@ -41,9 +40,35 @@
         </div>
     </nav>
 </header>
-<section>
-    <h1>ABC</h1>
+
+<section class="main_section">
+    <div class="container">
+        <div class="main_section_container">
+            <div class="headline">
+                <h1>
+                    <ul>
+                        <li>
+                            <span>Инвестиции</span>
+                        </li>
+                        <li>
+                            <p>Управление</p>
+                        </li>
+                        <li>
+                            Консалтинг
+                        </li>
+                    </ul>
+                </h1>
+            </div>
+                <div class="image_man">
+                    <img src="img/Man.png" alt="Man">
+                    <div class="line_main_image"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
+
 
 <script src="js/jquery.min.3.5.1.js"></script>
 <script src="js/script.js"></script>

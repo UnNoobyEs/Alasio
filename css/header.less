@@ -1,11 +1,14 @@
 //main: style.less
 
 header {
-  position: absolute;
+  position: fixed;
   margin-top: 55px;
-  background: @gradient;
   left: 0;
   right: 0;
+  font-family: HelveticaNeueCyr-Medium, sans-serif;
+  font-size: 13px;
+  transition: all .7s;
+  z-index: 999;
 }
 
 .logo {
@@ -34,7 +37,7 @@ nav .menu-container {
 
 .menu li {
   display: inline-block;
-  padding: 15px;
+  padding: 7px;
 }
 
 .menu li a {
@@ -44,10 +47,10 @@ nav .menu-container {
 
 .menu li a::before {
   content: '';
-  bottom:0;
+  bottom:-5px;
   right: 0;
   position: absolute;
-  width: 0%;
+  width: 0;
   height: 2px;
   background-color: #fff;
   transition: 0.2s;
@@ -60,7 +63,7 @@ nav .menu-container {
 
 .menu li .active::before   {
   content: '';
-  bottom:0;
+  bottom:-5px;
   right: 0;
   position: absolute;
   width: 100%;
@@ -75,18 +78,7 @@ nav .menu-container {
 
 .header_fix {
   margin: 0;
-  position: fixed;
-  animation-name:show_header;
-  animation-duration: 1s;
-}
-
-@keyframes show_header {
-  0% {
-    opacity: 0;
-    top:-70px;
-  }
-  100% {
-    opacity: 1;
-    top: 0;
-  }
+  padding: 5px 0;
+  border-radius: 5px;
+  background-color: rgba(38, 114, 200, 0.7);
 }
