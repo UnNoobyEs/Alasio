@@ -59,11 +59,25 @@
                     </ul>
                 </h1>
             </div>
-                <div class="image_man">
-                    <img src="img/Man.png" alt="Man">
-                    <div class="line_main_image"></div>
-                </div>
+            <div class="image_man">
+                <img src="img/Man.png" alt="Man">
+                <div class="line_main_image"></div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="activity">
+    <div class="transparent_text">
+        <p>Деятельность</p>
+    </div>
+    <div class="container">
+        <div class="header_section">
+            <h2>Деятельность</h2>
+            <hr>
+        </div>
+        <div class="activity_block">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam, architecto aspernatur assumenda, beatae blanditiis delectus dignissimos distinctio explicabo in, labore minima nesciunt odio omnis praesentium quae quia quibusdam vero.
         </div>
     </div>
 </section>

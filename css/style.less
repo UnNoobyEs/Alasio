@@ -2,7 +2,6 @@
 @import "fonts.less";
 
 body {
-  height: 100rem;
   background:url(../img/BG_all.png) no-repeat top center;
   background-size: 100% auto;
   padding-bottom: 3rem;
@@ -53,8 +52,43 @@ img {
   position: relative;
 }
 
+
+
+.header_section h2 {
+  font-family: HelveticaNeueCyr-Bold, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  background:@gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+}
+
+.header_section hr {
+  width: 13%;
+  height: 1px;
+  background:@blue;
+  border:1px solid transparent;
+  margin: 10px auto 2rem;
+}
+
+//.header_section h2::before {
+//  content: '';
+//  bottom:0;
+//  position: absolute;
+//  width: 16.5%;
+//  height: 2px;
+//  background-color: #185495;
+//}
+
+
 @import "header";
 
 @import "SecMain";
+
+@import "activity";
 
 @import "footer";
