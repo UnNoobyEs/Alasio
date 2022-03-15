@@ -5,8 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Alasio</title>
 </head>
 <body>
 <header>
@@ -45,19 +46,17 @@
     <div class="container">
         <div class="main_section_container">
             <div class="headline">
-                <h1>
-                    <ul>
-                        <li>
-                            <span>Инвестиции</span>
-                        </li>
-                        <li>
-                            <p>Управление</p>
-                        </li>
-                        <li>
-                            Консалтинг
-                        </li>
-                    </ul>
-                </h1>
+                <ul class="MainText">
+                    <li>
+                        <span>Инвестиции</span>
+                    </li>
+                    <li>
+                        <p>Управление</p>
+                    </li>
+                    <li>
+                        Консалтинг
+                    </li>
+                </ul>
             </div>
             <div class="image_man">
                 <img src="img/Man.png" alt="Man">
@@ -76,12 +75,34 @@
             <h2>Деятельность</h2>
             <hr>
         </div>
-        <div class="activity_block">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam, architecto aspernatur assumenda, beatae blanditiis delectus dignissimos distinctio explicabo in, labore minima nesciunt odio omnis praesentium quae quia quibusdam vero.
+        <div class="activity_blocks">
+            <div class="block">
+                <div class="block_image">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3>Инвестиции</h3>
+                <p>Компания выступает инвестором и управляющим партнером в проектах, принимая активное участие в стратегическом управлении</p>
+                <div class="elips"></div>
+            </div>
+            <div class="block">
+                <div class="block_image">
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                <h3>Управление</h3>
+                <p>Управление и стратегическое развитие инвестиций, создание реальной добавленной стоимости бизнеса</p>
+                <div class="elips"></div>
+            </div>
+            <div class="block">
+                <div class="block_image">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h3>Консалтинг</h3>
+                <p>Детальный пред-проектный анализ, привлечение экспертов и отраслевых профессионалов, моделирование и прогнозирование развития бизнеса</p>
+                <div class="elips"></div>
+            </div>
         </div>
     </div>
 </section>
-
 
 
 <script src="js/jquery.min.3.5.1.js"></script>
